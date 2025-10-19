@@ -31,14 +31,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.8rem;
   text-align: center;
   color: white;
 }
 
 intro h2{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: center;
+  color: white;
 }
 
 
