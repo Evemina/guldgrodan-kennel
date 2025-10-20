@@ -12,15 +12,20 @@
   <link rel="stylesheet" href="CSS/index.css">
   </head>
 
-
+  <script>
+  function tillbakaTillStartsidan() {
+    // Går till startsidan och ersätter historiken, så att bakåtpil inte funkar
+    window.location.replace("https://anevmi.github.io/guldgrodan-kennel/");
+  }
+  </script>
+  
   <body>
     <div class="tack-container">
-
       <h1 class="meddelande-svar">Tack för ditt meddelande!</h1>
-      <!--<div class="ladda-fler-bilder"><a href="https://anevmi.github.io/guldgrodan-kennel/index.html">TILLBAKA TILL SIDAN</a></div> -->
-
+      <button onclick="tillbakaTillStartsidan()" class="tillbaka-knapp">
+        Tillbaka till hemsidan
+      </button>
     </div>
-
   </body>
 
 </html>
