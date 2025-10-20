@@ -442,6 +442,23 @@ textarea{
     
 }
 
+.tillbaka-knapp {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: hsl(158, 32%, 29%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.tillbaka-knapp:hover {
+  background-color: hsl(158, 39%, 38%);
+}
+
 
 
 
