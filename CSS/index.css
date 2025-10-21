@@ -135,9 +135,8 @@ nav ul li a:hover {
 }
 
 .blogg {
-    background-color: hsla(0, 0%, 0%, 0.342);      
-    //display: flex;  
-    //justify-content: space-between;/* lägger listan längst till höger - vet ej riktigt varför
+    background-color: hsla(0, 0%, 0%, 0.42);      
+   
     align-items: center;    
     width: 100%;    
     backdrop-filter: blur(0.1rem);
