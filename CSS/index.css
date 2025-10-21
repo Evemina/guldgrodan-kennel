@@ -57,7 +57,7 @@ p a:hover {
 
 #intro{     /* bakgrundsbilden skall ligga under hela hem-sectionen dvs header och introtitlarna */
   background-color: hsla(189, 28%, 13%, 0.229);
-  background-image: url("BILDER-REPR/BAKGRUND-1-2.jpg"); 
+  background-image: url("BILDER-REPR/BAKGRUND-1.jpg"); 
   /*background-blend-mode: multiply;  /*'multiply' darkens using the darkest colors, 'lighten' uses the light colors */
   background-size: cover;
   background-repeat: no-repeat;  
