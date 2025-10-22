@@ -190,7 +190,7 @@ backdrop-filter: blur(0.1rem); z-index: 101;
 
 
 .om-oss-header{
-  text-align: center;
+  /*text-align: center;*/
   padding-top: 2rem;
   color: hsl(158, 32%, 29%);  
   
