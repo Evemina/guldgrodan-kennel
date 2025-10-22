@@ -140,9 +140,20 @@ nav ul li a:hover {
     align-items: center;    
     width: 100%;    
     backdrop-filter: blur(0.1rem);
-    z-index: 101;
-         
+    z-index: 101;        
   }
+
+.blogg p a {
+  color: hsl(159, 98%, 20%);
+  text-decoration: none;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+.blogg p a:hover {
+  color: hsl(150, 71%, 40%);
+  font-weight: bold;
+}
 
 
 /* OM OSS - SEKTIONEN */
