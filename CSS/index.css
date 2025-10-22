@@ -136,6 +136,7 @@ nav ul li a:hover {
 
 /*BLOGGSTILAR*/
 
+/* div nr 1 klassen */		
 .blogg { 
 background-color: hsla(0, 0%, 0%, 0.342); 
 display: flex; 
@@ -144,18 +145,33 @@ width: 100%;
 backdrop-filter: blur(0.1rem); z-index: 101;
 } 
 
+/* div nr 2 klassen */		
+.blogg-innehåll {
+  max-width: 90ch;
+  margin: 0 auto;
+  padding: 0.2rem 0.4rem 0.9rem 0.4rem;
+}
 
-.blogg p a { 
-color: hsl(159, 98%, 40%); 
-text-decoration: none; 
-font-style: italic; 
-transition: color 0.3s ease; 
-} 
+/* p klassen */		
+.blogg-text {
+  font-size: clamp(1.2rem, 2.1vw, 1.3rem);
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
 
 
-.blogg p a:hover { 
-color: hsl(150, 71%, 60%); 
-font-weight: bold; 
+.blogg-text a {
+  color: hsl(150, 71%, 40%);
+  text-decoration: none;
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+
+.blogg-text a:hover {
+  color: hsl(150, 71%, 60%)
+  font-weight: bold;
 }
 
 
