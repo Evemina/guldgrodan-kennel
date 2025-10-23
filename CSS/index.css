@@ -61,7 +61,8 @@ p a:hover {
   /*background-blend-mode: multiply;  /*'multiply' darkens using the darkest colors, 'lighten' uses the light colors */
   background-size: cover;
   background-repeat: no-repeat;  
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 3rem;
   
   background-position: right top; /*denna tillsammans med cover gör att center, bottom alltid syns*/
   /*border-top: 4rem solid white;  /*  är inte säker om denna ska vara med */    
