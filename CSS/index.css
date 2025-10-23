@@ -415,21 +415,6 @@ textarea{
   font-size: 0.95em;
     
 }
-.social-ikoner {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.social-ikoner a {
-  margin: 0 0.5rem;
-  color: white;
-  font-size: 2rem;
-  transition: color 0.3s ease;
-}
-
-.social-ikoner a:hover {
-  color: hsl(150, 71%, 40%);
-}
 
 /* FOOTER */
 /* FOOTER */
@@ -585,8 +570,6 @@ nav ul li a {
   font-size: 1.1em;
  
 }
-
-
 
 }
 
@@ -744,8 +727,7 @@ nav ul li a {
    
 }
 
-
-
+}
   
 
 
