@@ -340,7 +340,7 @@ backdrop-filter: blur(0.1rem); z-index: 101;
   background-blend-mode: lighten;
   margin-top: 1rem;
   padding-top: 5rem;
-  min-height: auto;
+  min-height: 100vh;
   padding-bottom: 6rem;
   
 }
