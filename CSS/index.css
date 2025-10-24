@@ -152,12 +152,12 @@ backdrop-filter: blur(0.1rem); z-index: 101;
 .blogg-innehåll {
   max-width: 90ch;
   margin: 0 auto;
-  padding: 0.2rem 0.4rem 0.9rem 0.4rem;
+  padding: 0.15rem 0.4rem 0.9rem 0.4rem;
 }
 
 /* p klassen */		
 .blogg-text {
-  font-size: clamp(1.2rem, 2.1vw, 1.3rem);
+  font-size: clamp(1.1rem, 2vw, 1.2rem);
   font-weight: bold;
   text-align: center;
   color: white;
@@ -342,7 +342,7 @@ backdrop-filter: blur(0.1rem); z-index: 101;
   background-blend-mode: lighten;
   margin-top: 1rem;
   padding-top: 5rem;
-  min-height: 100vh;
+  min-height: 90vh;
   padding-bottom: 6rem;
   
 }
