@@ -456,7 +456,7 @@ textarea{
   list-style: none;
 }
 
-.länkar ul li a{
+.länkar ul li {
   margin-top: 1rem;
   padding-top: 1rem;
   
