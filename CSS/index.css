@@ -440,10 +440,10 @@ textarea{
 }
 
 
-länkar{
+.länkar{
   font-weight: bold;
 }
-.fotlista{
+.fotlista, fotlista{
   padding-top: 1rem;  
 }
 
