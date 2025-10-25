@@ -442,9 +442,11 @@ textarea{
 
 .länkar{
   font-weight: bold;
+  padding-top: 1rem;
+  
 }
 
-.fotlista, .länkar{
+.fotlista{
   padding-top: 1rem;  
 }
 
