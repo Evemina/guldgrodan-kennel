@@ -6,6 +6,8 @@ height: 500px; You must set a specified height
 background-position: center; Center the image 
 background-repeat: no-repeat; Do not repeat the image 
 background-size: cover; Resize the background image to cover the entire container 
+
+GRUNDFORMATET ÄR MOBILSKÄRM FÖRST
 */
 
 
@@ -517,18 +519,16 @@ textarea{
 /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
 /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
 
-@media (width < 319px){  /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **//**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
+@media (width < 319px){  /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/för mindre format än vanliga mobiler/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
 
   .logo {    
-    width: 0;    
-       
+    width: 0;           
 }
 
 }
 
 
-
-@media (600px <= width <= 900px){/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **//**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
+@media (600px <= width <= 900px){/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/ipad/liten laptop/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
   
  
 
@@ -580,7 +580,7 @@ nav ul li a {
 
 
 
-@media (width >= 900px){ /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **//**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
+@media (width >= 900px){ /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/detta är iaf datorskärmstorlek/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
 
 
   /*ALLMÄNT*/
