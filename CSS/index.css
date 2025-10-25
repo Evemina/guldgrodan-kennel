@@ -432,7 +432,8 @@ textarea{
   margin-top: 2.5rem;
   margin-left: 1rem;
   margin-bottom: 5rem;
-}
+  }
+
 .footer-nav ul {
   list-style: none;
   padding: 0;
@@ -445,10 +446,10 @@ textarea{
   padding-top: 1rem;
   
 }
-
+/*
 .fotlista{
   padding-top: 1rem;  
-}
+}*/
 
 
 .fotlista li p,
