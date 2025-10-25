@@ -77,7 +77,7 @@ p a:hover {
 header{
     background-color: hsla(0, 0%, 0%, 0.342);      
     display: flex;  
-    justify-content: space-between;/* lägger listan längst till höger - vet ej riktigt varför*/
+    justify-content: space-between;/* flyttar isär elementen som finns i header*/
     align-items: center;
     position: fixed;
     width: 100%;
@@ -456,7 +456,8 @@ textarea{
   list-style: none;
 }
 
-.länkar li a{
+.länkar ul li a{
+  margin-top: 1rem;
   padding-top: 1rem;
   
 }
