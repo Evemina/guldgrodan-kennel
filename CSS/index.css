@@ -443,7 +443,8 @@ textarea{
 .länkar{
   font-weight: bold;
 }
-.fotlista, fotlista{
+
+.fotlista. länkar{
   padding-top: 1rem;  
 }
 
@@ -454,6 +455,7 @@ textarea{
   text-decoration: none;
   list-style: none;
 }
+
 .footer-nav ul li a:hover {
   color:hsl(158, 99%, 29%);
   font-weight: bold;
