@@ -443,7 +443,7 @@ textarea{
 .länkar li a {
   color: black;
   text-decoration: none;
-  
+  list-style: none;
 }
 
 
