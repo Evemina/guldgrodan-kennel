@@ -506,6 +506,7 @@ textarea{
 /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
 /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
 
+
 @media (width < 319px){  /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/för mindre format än vanliga mobiler/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
 
   .logo {    
@@ -517,9 +518,6 @@ textarea{
 
 @media (600px <= width <= 900px){/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/ipad/liten laptop/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
   
- 
-
-
   h1 {
     font-size: 3.5rem;
   }
@@ -527,6 +525,7 @@ textarea{
   h2{
     font-size: 2.2rem;  
   }
+                                 
 
   /* INTRO */
 
@@ -546,10 +545,7 @@ nav ul li a {
 }
 
 /* KONTAKT */
-
-
-
-
+                                 
 
 /* FOOTER */
 
@@ -561,14 +557,11 @@ nav ul li a {
  
 }
 
-
-
 }
 
 
 
 @media (width >= 900px){ /**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/detta är iaf datorskärmstorlek/**MEDIA QUERY FOR COMPUTERWIDE SCREENS **/
-
 
   /*ALLMÄNT*/
   /*ALLMÄNT*/
@@ -714,7 +707,6 @@ nav ul li a {
 
 .footer-nav{
   display: flex;
-  /*flex-direction: row;*/
   justify-content: space-around;
   font-size: 1.2em;
   padding: 0 3rem 0 3rem;
