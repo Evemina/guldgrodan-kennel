@@ -436,7 +436,7 @@ textarea{
   padding: 0;
   margin: 0;
   font-weight: bold;
-  padding-top: 1rem;
+  
 }
 
 .fotlista li p,
@@ -446,10 +446,6 @@ textarea{
   list-style: none;
 }
 
-.länkar {
-  margin-top: 1rem;
-  padding-top: 1rem;
-}
 
 .footer-nav ul li a:hover {
   color:hsl(158, 99%, 29%);
@@ -561,6 +557,8 @@ nav ul li a {
   flex-wrap: wrap; /* viktigt så det inte kraschar på mobil */
   align-items: flex-start; /* så båda börjar från toppen */
   font-size: 1.1em;
+  margin-left: auto;
+  margin-right: auto;
  
 }
 
@@ -719,9 +717,10 @@ nav ul li a {
   align-items: flex-start; /* så båda börjar från toppen */
   font-size: 1.2em;
   padding: 0 3rem 0 3rem;
-   
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
-
 
 }
   
