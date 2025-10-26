@@ -730,7 +730,7 @@ nav ul li a {
 
 .footer-nav{
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;*/
   justify-content: space-around;
   font-size: 1.2em;
   padding: 0 3rem 0 3rem;
