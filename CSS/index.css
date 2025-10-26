@@ -428,6 +428,7 @@ textarea{
 .footer-nav{  
   margin-top: 2.5rem;
   margin-left: 1rem;
+  margin-right: auto;
   margin-bottom: 5rem;
   }
 
@@ -557,7 +558,7 @@ nav ul li a {
   flex-wrap: wrap; /* viktigt så det inte kraschar på mobil */
   align-items: flex-start; /* så båda börjar från toppen */
   font-size: 1.1em;
-  margin: 0;
+  margin-left: auto;
  
 }
 
@@ -717,6 +718,7 @@ nav ul li a {
   align-items: flex-start; /* så båda börjar från toppen */
   font-size: 1.2em;
   padding: 0 3rem 0 3rem;
+  margin-left: auto;
   
 }
 
