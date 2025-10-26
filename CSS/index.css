@@ -342,7 +342,7 @@ backdrop-filter: blur(0.1rem); z-index: 101;
   background-blend-mode: lighten;
   margin-top: 1rem;
   padding-top: 5rem;
-  min-height: 90vh;
+  min-height: 100vh;
   padding-bottom: 6rem;
   
 }
@@ -420,12 +420,12 @@ textarea{
     
 }
 
+
 /* FOOTER */
 /* FOOTER */
 /* FOOTER */
 
-.footer-nav{
-  
+.footer-nav{  
   margin-top: 2.5rem;
   margin-left: 1rem;
   margin-bottom: 5rem;
