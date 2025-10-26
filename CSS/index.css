@@ -558,6 +558,8 @@ nav ul li a {
   display: flex;
   padding: 0 3rem 0 3rem;
   justify-content: space-around;
+  flex-wrap: wrap; /* viktigt så det inte kraschar på mobil */
+  align-items: flex-start; /* så båda börjar från toppen */
   font-size: 1.1em;
  
 }
@@ -713,6 +715,8 @@ nav ul li a {
 .footer-nav{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap; /* viktigt så det inte kraschar på mobil */
+  align-items: flex-start; /* så båda börjar från toppen */
   font-size: 1.2em;
   padding: 0 3rem 0 3rem;
    
