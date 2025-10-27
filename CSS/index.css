@@ -448,6 +448,7 @@ textarea{
 }
 .länkar {
   padding-top: 1rem;
+  margin-left: 0.5rem;
 }
 
 .footer-nav ul li a:hover {
