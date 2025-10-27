@@ -446,7 +446,9 @@ textarea{
   text-decoration: none;
   list-style: none;
 }
-
+.länkar {
+  padding-top: 1rem;
+}
 
 .footer-nav ul li a:hover {
   color:hsl(158, 99%, 29%);
