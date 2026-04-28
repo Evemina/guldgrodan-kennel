@@ -270,7 +270,7 @@ nav ul li a:hover {
 }
 
 /* POSITIONERAR OM VISSA BILDER */ 
-#om-positionera-top{
+.om-positionera-top{
   object-position: top;
 }
 
